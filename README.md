@@ -32,6 +32,7 @@ Struktur Data API
 API mengembalikan objek utama dalam format List yang membungkus satu Map ([ { ... } ]). Class ApiService menangani parsing struktur ini.
 
 |Bagian Data| Keterangan | Penggunaan dalam Aplikasi |
+|-----------|------------|---------------------------|
 |data |Berisi semua detail saham (company_name, description, market_cap, historical, prediction_data), diindeks oleh simbol (e.g., AAPL, MSFT). | Digunakan untuk Ringkasan, Grafik Historis, dan Prediksi. |
 | search_results | Daftar simbol dan nama perusahaan yang tersedia. | Digunakan untuk fitur Pencarian dan Daftar Saham. |
 
